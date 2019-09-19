@@ -1,0 +1,30 @@
+#resume-cont{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+/*#r-caption{
+	padding-right: 260px;
+}*/
+
+img.resume{
+	border: 1px; 
+	border-color:black; 
+	border-style:solid; 
+	position: relative;
+	width:calc(100vw - 600px);
+	height:100%;
+	border-radius: 1px;
+}
+/*	margin-left: 50px;
+}*/
+
+/*#resume-cont{
+	border:2px; 
+	border-color:black; 
+	border-style:solid; 
+	position: relative;
+	width:600px; 
+	height:776.5px;
+}*/

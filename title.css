@@ -1,0 +1,162 @@
+/*Standard stuff*/
+
+h1{
+	font-family: "Courier New", Courier, monospace;
+	font-size: 24px;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	color: #000000;
+	font-weight: bold;
+	text-decoration: none;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+}
+
+p{
+	font-family: "Courier New", Courier, monospace;
+	font-size: 16px;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	color: #000000;
+	font-weight: 400;
+	text-decoration: none;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+}
+
+a{
+	font-family: "Courier New", Courier, monospace;
+	font-size: 16px;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	color: #0000EE;
+	font-weight: 400;
+	text-decoration: none;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+}
+
+
+
+.title{
+	padding-left: 3vw;
+	padding-top: 50px;
+	position: fixed;
+}
+
+
+/*sub class for Title link*/
+
+a.class1{
+	font-family: "Courier New", Courier, monospace;
+	font-size: 24px;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	color: #0000EE;
+	font-weight: bold;
+	text-decoration: none;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+}
+
+
+
+/*This is for nav*/
+
+.side-nav{
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  background-color: white;
+  overflow-x: hidden;
+  padding-top: 20px;
+  padding-left: 3vw;
+  margin-top: 80px;
+  cursor: pointer;
+}
+
+.side-nav a, .drop{
+	font-family: "Courier New", Courier, monospace;
+	font-size: 20px;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	color: #0000EE;
+	font-weight: 400;
+	text-decoration: none;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 24px;
+	cursor: pointer;
+	width: 100%;
+	display: block;
+}
+.side-nav a.sub-cat{
+	font-family: "Courier New", Courier, monospace;
+	font-size: 18px;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	color: green;
+	font-weight: 400;
+	text-decoration: none;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 22px;
+	width: 100%;
+	display: block;
+}
+
+
+.side-nav a:hover, .drop:hover {
+  font-weight: 600;
+}
+
+.active {
+	text-decoration: underline;
+}
+
+.drop-container {
+  display: none;
+  padding-left: 10px;
+  color: green;
+}
+
+.main {
+  width:50vh;
+  height:600px;
+  margin-right:25vw;
+  margin-left: 25vw; /* Same as the width of the sidenav */
+  font-size: 20px; /* Increased text to enable scrolling */
+  margin-top: 80px;
+  border:2px;
+  border-color:black;
+  border-style:solid;
+}
+
+
+/*ul {
+  list-style-type: none;
+  margin: 0;
+  padding-top: 30px;
+  padding-left: 3vw;
+  line-height: 20px;
+
+}
+
+li a {
+  display: block;
+  width: 60px;
+}
+
+
+.vl {
+  border-left: 3px black;
+  height: 500px;
+  align-content: left;
+}*/

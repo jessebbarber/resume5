@@ -1,0 +1,60 @@
+
+
+
+.article-block {
+  	padding-right:20px;
+ 	left: 250px; /* Same as the width of the sidenav */
+  	padding-bottom: 40px;
+  	font-size: 20px; /* Increased text to enable scrolling */
+  	padding-top: 125px;
+  	height: 100%;
+/*  	width:calc(100vw-250px);*/
+  	position: relative;
+  	max-width: 100%;
+  	overflow-x: hidden;
+
+}
+
+.pic-cont{
+	width: calc(100vw - 600px);
+	height: auto;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	border-radius: 1px;
+	float:left; 
+	position:relative;
+	margin-bottom: 40px;
+	display: inline-block;
+	left:0px;
+}
+
+.cap-cont{
+	float:left; 
+	position:relative;
+	display: inline-block;
+	width: 300px;
+	padding-left: 20px;
+	padding-right:40px;
+	top:-18px;
+	display: inline-block;
+	height: 500px;
+
+}
+
+.article-title
+{
+	font-family: "Courier New", Courier, monospace;
+	font-size: 16px;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	color: #0000EE;
+	font-weight: 400;
+	text-decoration: none;
+	font-style: normal;
+	font-variant: normal;
+	text-transform: none;
+	text-align: left;
+	line-height: .75;
+}
+

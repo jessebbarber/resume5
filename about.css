@@ -1,0 +1,26 @@
+#my-pic{
+	width: 250px;
+	height: auto;
+	float: center;
+	border:1px; 
+	border-color:black; 
+	border-style:solid; 
+	border-radius: 1px;
+}
+
+#bio-text{
+	max-width: 700px;
+}
+
+#wrapper{
+
+	height: 100%;
+	max-width: 100%;
+	max-height: 100%;
+	padding-right: 50px;
+	padding-bottom: 0px;
+	padding-top: 125px;
+	left: 250px;
+	position: relative;
+	display: inline-block;	
+}
